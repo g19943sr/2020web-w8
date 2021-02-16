@@ -12,14 +12,14 @@
     </style>
   </head>
   <body>
-    <h1>Simple maps example</h1>
+    <h1>Tokyo Disney Resort</h1>
 
     <div id="map_canvas"></div>
     <script>
     function initMap() {
       var myOptions = {
-        zoom: 18,
-        center: {lat: 35.6231573, lng: 139.8764764},
+        zoom: 17,
+        center: {lat: 35.6306622, lng: 139.8806808},
         mapTypeId: google.maps.MapTypeId.TERRAIN,
         disableDefaultUI: true,
         // Step 4. Customize displayed controls
@@ -34,7 +34,7 @@
       var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
 
       var marker = new google.maps.Marker({
-        position: {lat: 35.6231573, lng: 139.8764764},
+        position: {lat: 35.6306622, lng: 139.8806808},
         icon: iconBase + 'flag_maps.png',
         map: map
       });
